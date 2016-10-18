@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.qb.china</groupId>
+  <artifactId>qb_login</artifactId>
+  <packaging>war</packaging>
+  <version>1.0</version>
+  <name>qb_login Maven Webapp</name>
+  
+  <properties>
+  	<spring.version>4.0.2.RELEASE</spring.version>
+  	<mybatis.version>3.2.6</mybatis.version>
+  	<slf4j.version>1.7.7</slf4j.version>
+  	<log4j.version>1.2.17</log4j.version>
+  	<mysql.connector.version>5.1.30</mysql.connector.version>
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+  	<dependency>
+      <groupId>com.qb.china</groupId>
+      <artifactId>qb-common</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>qb_login</finalName>
+  </build>
+</project>
