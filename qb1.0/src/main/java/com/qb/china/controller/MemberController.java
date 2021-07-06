@@ -12,7 +12,7 @@ import com.qb.china.service.UserService;
 
 /**
  * 会员
- * Create by Long.Meng on 2016年9月19日.
+ * Create by ML on 2016年9月19日.
  */
 @Controller
 @RequestMapping("/user")
